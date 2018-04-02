@@ -22,7 +22,7 @@ var findDepth = function(root) {
 
   var rightDepth = findDepth(root.right);
 
-  if (leftDepth === -1) {
+  if (rightDepth === -1) {
     return -1;
   }
 
